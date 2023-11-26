@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url("../images/abstract-3291293.jpg");
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+	font-family: Quintessential;
+	margin-top: 3%;
+	padding: 30px;
+	font-weight: bold;
+}
+.row {
+	padding: 0;
+	margin: 0;
+}
+.left {
+	background: url("../images/property-rezoning.jpg.webp");
+	background-size: cover;
+	background-color: cornflowerblue;
+	box-sizing: border-box;
+}
+.right {
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	justify-content: center;
+}
+
+.f-label {
+	display: block;
+	transform: translateY(-2rem) translateX(1rem);
+	transform-origin: 0 0;
+	transition: all 0.3s;
+	font-size: 1.2rem;
+	color: rgb(89, 80, 80);
+	font-weight: 600;
+}
+.f-input::placeholder {
+	color: transparent;
+}
+.f-input {
+	border: none;
+	background-color: none;
+	border-bottom: 2px solid black;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+.f-input:focus {
+	outline: none;
+	border-color: orange;
+}
+.form {
+	transition: all 0.3s;
+}
+.form:focus-within {
+	/*applicable on div */
+	transform: scale(1.1, 1.1);
+}
+/* applicable on label*/
+.f-input:focus + .f-label,
+.f-input:not(:placeholder-shown) + .f-label {
+	transform: translateY(-2.2em) scale(0.8);
+	color: #139487;
+	font-size: 1.6rem;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+
+.logo img {
+	border-radius: 50%;
+	height: 150px;
+}

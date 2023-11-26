@@ -1,0 +1,13 @@
+.sales-heading-wrap {text-align: center; letter-spacing: 3px;}
+.card-wrap{ margin-top: 30px;}
+.card{border: none;}
+.slick-prev:before,.slick-next:before{color:#fff;}
+.slick-prev:before{content: '\21AB';}
+.slick-next:before{content: '\21AC';}
+.slick-prev, .slick-next{background-color: rgba(0,0,0,0.6); border-radius: 50%;}
+
+@media(max-width: 426px){
+    .slick-prev:before{content: ' ';}
+    .slick-next:before{content: ' ';}
+    .slick-prev, .slick-next{background-color: transparent};
+}

@@ -1,0 +1,33 @@
+.welcome-wrap {
+	background-color: #f8f9fa;
+}
+.welcome-wrap .welcome-heading-wrap {
+	text-align: center;
+	font-size: 25px;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+}
+.welcome-wrap .welcome-heading-wrap .welcome-subheading {
+	color: #7a7a7a;
+}
+.welcome-wrap .card {
+	padding: 10px 15px;
+	text-align: center;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	margin-bottom: 0.5rem;
+}
+.welcome-wrap .card .card-text {
+	color: #7a7a7a;
+}
+.welcome-wrap .card img:hover {
+	filter: drop-shadow(8px 8px 10px gray);
+	padding: 5px;
+	transition: 0.5s;
+}
+
+@media (max-width: 426px) {
+	.welcome-wrap .container-fluid {
+		padding: 0 !important;
+	}
+}

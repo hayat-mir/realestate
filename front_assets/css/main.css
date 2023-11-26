@@ -1,0 +1,129 @@
+.carousel .carousel-inner .carousel-item img {
+	width: 100%;
+	max-height: 75vh;
+	object-fit: cover;
+}
+.carousel .carousel-inner .carousel-item {
+	position: relative;
+}
+.property-slider-item {
+	position: absolute;
+	background: white;
+	width: 500px;
+	top: 50%;
+	left: 22%;
+	transform: translate(-20%, -50%);
+	padding: 25px 30px;
+	color: #636363;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.name-and-price {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.name-and-price .item-title {
+	font-size: 1rem;
+	color: #007bff;
+	font-weight: bold;
+}
+.property-slider-item address {
+	font-size: 13px;
+	margin-top: 0.5rem;
+}
+.item-price-wrap .item-price {
+	font-weight: bold;
+}
+.btn.btn-primary.btn-item {
+	display: block;
+	width: 20%;
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	border-radius: unset;
+}
+.property-slider-item .p-type {
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	font-size: 13px;
+}
+.property-slider-item ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0;
+}
+.property-slider-item li.item-amenities-with-icons {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+@media (max-width: 890px) {
+	.property-slider-item {
+		width: 950px;
+		top: 50%;
+		left: 40%;
+
+		transform: translate(-50%, -50%);
+		padding: 20px 20px;
+	}
+}
+@media (max-width: 520px) {
+	span.carousel-control-next-icon,
+	span.carousel-control-prev-icon {
+		display: none;
+	}
+	.name-and-price {
+		display: block;
+	}
+	.property-slider-item {
+		width: 310px;
+	}
+	.property-slider-item address {
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.btn.btn-primary.btn-item {
+		width: 25%;
+	}
+	.carousel .carousel-inner .carousel-item img {
+		height: 480px;
+	}
+}
+@media (max-width: 320px) {
+	.property-slider-item {
+		width: 250px;
+		padding: 5px 10px;
+	}
+	.property-slider-item .item-title {
+		font-size: 12px;
+	}
+	.property-slider-item .item-price {
+		font-size: 11px;
+	}
+	.property-slider-item address {
+		margin: 0;
+		font-size: 10px;
+	}
+	.property-slider-item ul {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		font-size: 10px;
+	}
+	.property-slider-item .p-type {
+		font-size: 10px;
+	}
+	.carousel .carousel-inner .carousel-item img {
+		height: 400px;
+	}
+	.btn.btn-primary.btn-item {
+		width: 23%;
+		padding: 0px;
+		font-size: 12px;
+	}
+}

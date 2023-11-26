@@ -1,0 +1,36 @@
+section.container.total-properties-bar-wrap {padding: 1rem 15px; margin-top: 20px; margin-bottom: 15px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex; justify-content: space-between; align-items: center;}
+.property-grid-item.card{box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; margin-bottom: 1rem;} /* https://getcssscan.com/css-box-shadow-examples */
+.property-grid-item .card-title {margin-bottom: 5px;}
+.property-grid-item address{font-size: 12px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.property-grid-item ul {list-style: none; display: flex; align-items: center; gap: 1rem; padding: 0; font-size: 12px; margin-bottom: 0;}
+.property-grid-item ul li{display: inline-block; padding: 0 8px;}
+.property-grid-item ul li.middle-item{border-left: 1px solid grey; border-right: 1px solid grey;}
+.property-grid-item p.amenities-name {margin-bottom: 0;}
+.property-grid-item .card-img-top{min-height: 17rem;}
+.property-grid-item  .card-image-and-tags { position: relative;}
+.property-grid-item .property-tags{font-size: 10px; text-transform: uppercase;}
+.property-grid-item span.price-tag {position: absolute; bottom: 5%;left: 5%; color: white; background: rgba(0,0,0,0.6); padding: 2px 7px;}
+.property-grid-item span.type-tag {position: absolute;top: 3%;left: 3%; color: white; background: rgba(0,0,0,0.6); padding: 2px 7px;}
+.property-grid-item span.status-tag {position: absolute; top: 3%; right: 3%; color: white; background: #77c720; padding: 2px 7px;}
+.property-grid-item span.icon-and-number {font-size: 16px;}
+.property-grid-item .card-image-and-tags img:hover{
+	/* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+  /* When the animation is finished, start again */
+  /*animation-iteration-count: infinite;*/
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

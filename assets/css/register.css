@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: rgb(35, 31, 32);
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+	font-family: Quintessential;
+
+	padding: 50px;
+}
+.row {
+	height: 530px;
+}
+.left {
+	background: url("../images/undraw_certificate_re_yadi.svg");
+	background-size: cover;
+	background-color: #2eb086;
+}
+.right {
+	background-color: white;
+}
+
+.f-label {
+	display: block;
+	transform: translateY(-2rem) translateX(1rem);
+	transform-origin: 0 0;
+	transition: all 0.3s;
+	font-size: 1.2rem;
+	color: rgb(89, 80, 80);
+	font-weight: 600;
+}
+.f-input::placeholder {
+	color: transparent;
+}
+.f-input {
+	border: none;
+	background-color: none;
+	border-bottom: 2px solid black;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+.f-input:focus {
+	outline: none;
+	border-color: orange;
+}
+.form {
+	transition: all 0.3s;
+	position: relative;
+	margin-left: 80px;
+}
+.form:focus-within {
+	/*applicable on div */
+	transform: scale(1.1, 1.1);
+}
+/* applicable on label*/
+.f-input:focus + .f-label,
+.f-input:not(:placeholder-shown) + .f-label {
+	transform: translateY(-2.2em) scale(0.8);
+	color: mediumblue;
+	font-size: 1.6rem;
+}
+.btn {
+	margin-left: 175px;
+}

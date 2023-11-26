@@ -1,0 +1,43 @@
+.image_about {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.head_text_about {
+  color: #004274;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+.main-head_about {
+  font-size: x-large;
+  color: rgb(9, 158, 81);
+}
+.wrapper_about {
+  margin: 40px auto;
+}
+.s-head_about {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.main-card_about {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: relative;
+}
+
+.card_about:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card_about {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 450px;
+} 

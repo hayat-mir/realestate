@@ -1,0 +1,275 @@
+body {
+	background-color: #f7f8f9;
+}
+strong {
+	font-weight: 600;
+}
+
+section.prop-name-loc-wrap {
+	padding: 1rem 0;
+}
+.prop-name-loc-wrap .name-price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.prop-name-loc-wrap .property-features-tags .feature {
+	font-size: 12px;
+	padding: 3px 10px 4px;
+	margin-right: 5px;
+	color: white;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.prop-name-loc-wrap .property-features-tags .feature.label-tag {
+	background-color: rgba(0, 0, 0, 0.65);
+}
+.prop-name-loc-wrap .property-features-tags .feature.status-tag {
+	background-color: #dd3333;
+}
+.prop-name-loc-wrap .property-price {
+	font-size: 30px;
+	font-weight: 500;
+}
+section.prop-name-loc-wrap address {
+	margin-bottom: 0;
+	margin-top: 9px;
+	color: #636363;
+	font-size: 13px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+section.gallery-carousel-wrap
+	.carousel-wrap
+	.carousel-inner
+	.carousel-item
+	img {
+	height: 80vh;
+	object-fit: cover;
+}
+.gallery-wrap {
+	padding: 0.5rem 0;
+}
+.gallery-wrap .property-images-gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery-wrap .property-images-gallery .prop-img-inner img {
+	width: 11vw;
+	height: 5vw;
+	object-fit: cover;
+	margin-right: 5px;
+}
+
+section.overview-wrap .property-overview-wrap {
+	margin-top: 30px;
+	padding: 40px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.overview-wrap .property-overview-wrap .overview-heading {
+	border-bottom: 1px solid #eff3f3;
+	margin-bottom: 25px;
+	padding-bottom: 40px;
+}
+.overview-wrap .property-overview-wrap .property-overview-data {
+	display: flex;
+	justify-content: space-between;
+}
+.property-overview-wrap .property-overview-data ul {
+	list-style: none;
+	padding-left: 0;
+}
+.property-overview-wrap .property-overview-data ul li {
+	color: #5c6872;
+}
+.property-overview-wrap .property-overview-data ul li i {
+	margin-right: 0.25rem;
+}
+
+section.description-wrap .property-description-wrap {
+	padding: 40px;
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.description-wrap .property-description-wrap .description-heading {
+	border-bottom: 1px solid #dce0e0;
+	margin-bottom: 25px;
+	padding-bottom: 40px;
+}
+.property-description-wrap .description-content .descrip {
+	color: #5c6872;
+}
+
+section.address-wrap .property-address-wrap {
+	padding: 40px;
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.address-wrap .property-address-wrap .address-heading {
+	border-bottom: 1px solid #dce0e0;
+	margin-bottom: 25px;
+	padding-bottom: 40px;
+}
+.address-wrap .property-address-wrap ul {
+	list-style: none;
+	column-count: 2;
+	padding: 0;
+}
+.address-wrap .property-address-wrap ul li.address-item {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	border-color: #dce0e0;
+	padding: 10px;
+}
+
+section.details-wrap .property-details-wrap {
+	padding: 40px;
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.details-wrap .property-details-wrap .details-heading-wrap {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #dce0e0;
+	margin-bottom: 25px;
+	padding-bottom: 40px;
+}
+.property-details-wrap .details-heading-wrap .created-date {
+	color: #636363;
+}
+.property-details-wrap .details-heading-wrap i {
+	margin-right: 5px;
+}
+.details-wrap .property-details-wrap ul {
+	list-style: none;
+	column-count: 2;
+	padding: 30px;
+	border: 1px solid #00aeff;
+	background-color: rgba(0, 174, 255, 0.1);
+}
+.details-wrap .property-details-wrap ul li.details-item {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	border-color: #dce0e0;
+	padding: 10px;
+}
+
+section.maps-location-wrap {
+	padding: 40px;
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.maps-location-wrap .map-title {
+	border-bottom: 1px solid #dce0e0;
+	margin-bottom: 25px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.weather-wrap {
+	padding: 40px;
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.weather-wrap .weather-title {
+	border-bottom: 1px solid #dce0e0;
+	margin-bottom: 25px;
+	padding-bottom: 30px;
+}
+.weather-wrap .weather-details {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section.contact-info-wrap {
+	padding: 40px;
+	background-color: #fff;
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.contact-info-wrap form label {
+	font-weight: bold;
+}
+.contact-info-wrap .form-heading-wrap {
+	margin-bottom: 25px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #dce0e0;
+}
+.contact-info-wrap form input {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media (max-width: 426px) {
+	body {
+		background-color: #fff;
+	}
+	.prop-name-loc-wrap .name-price {
+		display: block;
+	}
+	.prop-name-loc-wrap .name-price .property-price {
+		font-size: 20px;
+	}
+	section.gallery-carousel-wrap
+		.carousel-wrap
+		.carousel-inner
+		.carousel-item
+		img {
+		height: 50vh;
+	}
+	.gallery-wrap .property-images-gallery {
+		justify-content: center;
+	}
+	.gallery-wrap .property-images-gallery .prop-img-inner img {
+		width: 42vw;
+		height: 20vw;
+		margin-bottom: 5px;
+	}
+	section.overview-wrap .property-overview-wrap,
+	section.description-wrap .property-description-wrap,
+	section.address-wrap .property-address-wrap,
+	section.details-wrap .property-details-wrap,
+	.details-wrap .property-details-wrap ul,
+	section.contact-info-wrap,
+	section.maps-location-wrap,
+	section.weather-wrap {
+		padding: 0;
+		box-shadow: unset;
+	}
+	.overview-wrap .property-overview-wrap .property-overview-data {
+		display: block;
+		column-count: 2;
+	}
+	.address-wrap .property-address-wrap ul,
+	.details-wrap .property-details-wrap ul {
+		column-count: 1;
+	}
+	.details-wrap .property-details-wrap .details-heading-wrap {
+		display: block;
+	}
+	.maps-location-wrap .map-title {
+		display: block;
+	}
+}

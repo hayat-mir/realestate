@@ -1,0 +1,40 @@
+.row.upper-header{display: flex; justify-content: space-around;padding-top: 10px; padding-bottom: 5px;}
+.upper-header .logo-container-wrap {width: 200px;height: auto;}
+.upper-header .logo-img{max-width: 100%; max-height: 100%;}
+.upper-header .header-contact-details-wrap{display: flex; align-items: center; gap: 2rem}
+.upper-header .icon-with-details { display: flex;align-items: center; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; padding: 10px;gap: 1rem;}
+.upper-header .inner-contact-details {display: flex;flex-direction: column;text-align: center;}
+.upper-header .inner-heading{text-transform: uppercase; color: #004274; font-weight: 500;}
+.upper-header .inner-subheading{font-size: 12px;}
+.upper-header span.icon {font-size: 24px; color: #004274;}
+.upper-header .header-social-icons {display: flex; font-size: 30px; gap: 1rem;}
+
+.lower-header .navbar{padding: 0.5rem 5rem; background-color: #004274;}
+.lower-header li.nav-item {padding: 0 5px; border-right: 1px solid rgba(0, 174, 255, 0.2);}
+.lower-header .navbar .nav-link{color: white; font-weight: 500; font-size: 14px;}
+/*.lower-header .navbar .navlink:hover{color: #00aeff !important;}*/
+.lower-header .btn-outline-success{border-color: #fff; color: #fff; font-weight: bold;}
+.lower-header .btn-outline-success:hover{border: none;}
+.lower-header .display-on-mobile{display: none;}
+.lower-header .login-icon-mobile a{font-size: 25px; color: rgba(255,255,255,.5);}
+.lower-header .logo-mobile{color: white; letter-spacing: 0.1em; font-weight: 500;}
+
+@media(max-width: 769px){
+	.upper-header .header-contact-details-wrap{gap: 0; font-size: 12px;}
+	.upper-header .header-social-icons{display: none;}
+	.lower-header .navbar-collapse .btn.btn-outline-success {display: none;}
+	.lower-header .display-on-mobile{display: block; padding-right: 10px;}
+}
+@media(max-width: 426px){
+	.row.upper-header{padding: 0; margin:3px;}
+	.upper-header .header-contact-details-wrap{font-size: 10px;}
+	.upper-header .logo-container-wrap{display: none;}
+	.upper-header .icon-with-details{padding: 0; gap: 0;}
+	.upper-header span.icon{font-size:unset;}
+	.upper-header .inner-contact-details{display: block;/*text-align: left;*/}
+	.upper-header .inner-subheading{font-size: 9px;}
+	.lower-header .navbar{padding: 0 5px;}
+}
+@media(max-width: 376px){
+	.row.upper-header{display: none;}
+}
